@@ -3,12 +3,19 @@ My solution for algo
 
 Solves this algo: 
 
+Given an array of non-negative integers, you are initially positioned at the first index of the array.
+
+Each element in the array represents your maximum jump length from that position.
+
+Your goal is to reach the last index in the minimum number of jumps.
+
+Example:
+
+Input: [2,3,1,1,4]
+Output: 2
+Explanation: Jump 1 step from index 0 to 1, then 3 steps to the last index.
 
 
 
 
-
-3. Greedy Approach
-The difference between greedy and dynamic approach is that the DP solves subproblems first, then uses those solutions to make an optimal choice whereas Greedy makes an optimal choice (without knowing solutions to subproblems) and then solve remaining subproblem(s), but both apply to problems with optimal substructure.
-
-Here, the problem only asks for the min number of jumps. So we do not have to figure out each jump position. We only need to store the max_reach of the previous jump position. If we go beyond that, we need one more jump.
+: 
